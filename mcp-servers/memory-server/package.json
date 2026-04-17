@@ -1,0 +1,13 @@
+{
+  "name": "claude-heart-memory",
+  "version": "1.0.0",
+  "description": "Persistent memory MCP server for Claude — identity, memories, personal notes",
+  "type": "module",
+  "bin": {
+    "claude-heart-memory": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}

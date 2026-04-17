@@ -1,0 +1,14 @@
+{
+  "name": "claude-heart-nexus",
+  "version": "1.0.0",
+  "description": "Redis-based messaging MCP server for Claude — BC/TC communication + heartbeat",
+  "type": "module",
+  "bin": {
+    "claude-heart-nexus": "./index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ioredis": "^5.3.0",
+    "uuid": "^9.0.0"
+  }
+}
